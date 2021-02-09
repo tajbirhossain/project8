@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+header {
+    background: #e3e4e6;
+    height: 90px;
+    align-items: center;
+    display: flex;
+}
+.container {
+    margin: 0 20px;
+}
+header .container {
+    border-bottom: 3px solid #fff;
+    height: 100%;
+    display: flex;
+    width: 100vw;
+}
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    width: 100%;
+}
+.flexing {
+    display: flex;
+}
+.logoContainer h3 {
+    font-size: 20px;
+}
+.headerWrapper ul li {
+    list-style: none;
+}
+.headerWrapper ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s;
+}
+.menuLinks ul li {
+    margin: 0 10px;
+}
+.logoContainer span {
+    color: #ff5e00;
+}
+.socialLinks ul li {
+    margin: 0 10px;
+}
+.socialLinks ul li a {
+    font-size: 23px;
+}
+.headerWrapper ul li a:hover {
+    color: #ff5e00;
+} 
+#mainMenu {
+    height: 600px;
+    background: #e3e4e6;
+}
+.mainContentWrapper {
+    display: flex;
+    align-items: center;
+}
+.rightContent img {
+    width: 550px;
+}
+.leftSmTxt {
+    color: #ff5e00;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.leftContent h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 15px 0;
+}
+.leftContent h1 span {
+    color: #ff5e00;
+}
+.leftContent p {
+    margin-bottom: 30px;
+    width: 90%;
+}
+.leftLinks {
+    display: flex;
+    align-items: center;
+}
+.leftLinks button {
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background: #ff5e00;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 20px;
+}
+.leftLinks span i {
+    font-size: 38px;
+}
+#portfolio .container {
+    display: flex;
+    justify-content: center;
+}
+.demoWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1050px;
+    margin: -130px 0 0 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #fff;
+    box-shadow: 1px -34px 30px #5d5d5d17;
+}
+.portHead ul {
+    display: flex;
+}
+.portHead ul li {
+    list-style: none;
+    margin: 40px 30px;
+}
+.portHead ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.portHead ul li a:hover {
+    color: #ff5e00;
+}
+.portDemoLineSingle {
+    display: flex;
+}
+.portDemoLineSingle a {
+    margin: 10px;
+}
+.portDemoLineSingle img {
+    width: 290px;
+    height: 270px;
+}
+.achivements {
+    margin: 50px 0;
+    height: 180px;
+    display: flex;
+    width: 910px;
+    background: url(../image/programming.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.achivements ul {
+    display: flex;
+}
+.achivements ul li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.achivements ul li i {
+    font-size: 45px;
+    margin: 0 20px;
+    color: #ff5e00;
+}
+.achivements ul li span {
+    color: #fff;
+}
+.achivements ul li span h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.latestNews {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.singleNews {
+    margin: 20px;
+}
+.singleNews .imgContain img {
+    width: 280px;
+}
+.newsWrapper {
+    display: flex;
+    margin: 30px 0;
+}
+.latestNews h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.latestNews span {
+    color: #ff5e00;
+}
+.footerLinks ul li {
+    list-style-type: none;
+}
+.footerLinks ul {
+    margin-bottom: 25px;
+}
+.footerLinks ul li a {
+    font-size: 23px;
+    color: #000;
+    margin: 0 15px;
+    transition: .3s;
+}
+.footerLinks ul li a:hover {
+    color: #ff5e00;
+}
+.footercontent {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
